@@ -1,0 +1,107 @@
+/* styles.css */
+
+body {
+    font-family: Calibri, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #40454D;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: white;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.content p {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+#fabric-technology {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 0 4rem;
+}
+
+.fabric-item {
+    border-radius: 0.8rem;
+    box-sizing: border-box;
+    transition: transform 0.2s ease-out;
+    background: #40454D;
+    color: white;
+    flex: 0 0 calc(22% - 2rem);
+    max-width: calc(22% - 2rem);
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fabric-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.8rem;
+    margin-bottom: 1rem;
+    transition: opacity 0.5s ease;
+}
+
+.fabric-item img.lazy {
+    opacity: 0;
+}
+
+.fabric-item img.lazy-loaded {
+    opacity: 1;
+}
+
+.fabric-item p {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.fabric-item a {
+    color: #01A18F;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.fabric-item a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .fabric-item {
+        flex: 0 0 calc(48% - 2rem);
+        max-width: calc(48% - 2rem);
+    }
+}
+
+@media (max-width: 768px) {
+    .fabric-item {
+        flex: 0 0 calc(100% - 2rem);
+        max-width: calc(100% - 2rem);
+    }
+}
