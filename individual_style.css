@@ -1,0 +1,326 @@
+body {
+    font-family: Calibri, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    flex-basis: 100%;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    padding-left: 10rem;
+    color: #000; /* Set h1 color to black */
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0rem 10rem;
+}
+
+.text-section {
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.text-section p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #333; /* Set paragraph color to dark grey */
+}
+
+.metrics-section {
+    flex: 1;
+    margin-top: 1rem;
+    margin-left: 2rem; /* Add left margin to create space between text-section and metrics-section */
+}
+
+.metric {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.label {
+    flex: 0 0 30%;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #5A595D; /* Set label text color */
+    background: #CFD1D3; /* Set label background color */
+    height: 1.8rem; /* Match the height of the bar */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: flex-start; /* Align text to the left */
+    padding: 0 0.5rem; /* Add padding for left alignment */
+    margin: 0; /* Remove margin */
+}
+
+.bar-container {
+    flex: 1;
+    background: #fff;
+    height: 1.8rem; /* Match the height of the label */
+    margin: 0; /* Remove margin */
+    overflow: hidden;
+}
+
+.fill {
+    background: #009286;
+    height: 100%;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap; /* Allow icons to wrap to the next line */
+    justify-content: flex-start; /* Align icons to the left */
+    gap: 0.5rem; /* Add gap between icons */
+    margin-top: 2rem;
+    padding-left: 2rem; /* Adjust padding for smaller screens */
+    padding-right: 2rem; /* Adjust padding for smaller screens */
+}
+
+.icons img {
+    max-width: 65px; /* Set maximum width */
+    max-height: 65px; /* Set maximum height */
+    object-fit: contain; /* Maintain aspect ratio */
+}
+
+.main-image {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 2rem;
+    background: #D1D3D5;
+}
+
+.main-image img {
+    width: 35%;
+    height: auto;
+}
+
+.sub-images {
+    display: flex;
+    flex-wrap: wrap; /* Allow sub-images to wrap to the next line */
+    justify-content: flex-start; /* Align sub-images to the left */
+    gap: 1rem;
+    margin: 2rem 0rem;
+    padding-left: 10rem; /* Add padding to align with the content */
+}
+
+.sub-images img {
+    width: 10%; /* Adjusted width to make the sub-images smaller */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.sub-images img:hover {
+    transform: scale(1.1);
+}
+
+.fabric-details {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    background: #D1D3D5;
+    padding: 1rem 0; /* Remove horizontal padding */
+    margin-bottom: 2rem; /* Add margin-bottom for spacing */
+}
+
+.fabric-details p {
+    margin-bottom: 2rem;
+}
+
+.fabric-details .fabric-images {
+    display: flex;
+    justify-content: center; /* Center the images */
+    gap: 5rem; /* Increase gap between images */
+    margin-bottom: 1rem; /* Add margin-bottom for spacing */
+    flex-wrap: wrap; /* Allow images to wrap to the next line */
+}
+
+.fabric-details .fabric-images img {
+    width: auto; /* Ensure the width is auto */
+    height: 150px; /* Set a fixed height to ensure consistency */
+    object-fit: contain; /* Maintain aspect ratio and ensure the whole image is visible */
+}
+
+.more-options {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.more-options p {
+    font-size: 1.5rem; /* Make the paragraph text bigger */
+    font-weight: bold; /* Make the text bold */
+    margin-bottom: 1rem; /* Add margin to space it from the button */
+}
+
+.more-options button {
+    font-size: 1rem;
+    color: #fff;
+    background-color: #01A18F;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 20px; /* Add border radius */
+}
+
+.more-options button:hover {
+    background-color: #028a73;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .content {
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+
+    h1 {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-left: 2rem; /* Adjust padding for smaller screens */
+        padding-right: 2rem; /* Adjust padding for smaller screens */
+    }
+
+    .text-section {
+        margin-right: 0;
+        margin-bottom: 2rem;
+        padding-left: 2rem; /* Adjust padding for smaller screens */
+        padding-right: 2rem; /* Adjust padding for smaller screens */
+    }
+
+    .metrics-section {
+        width: 100%;
+        margin-top: 0; /* Reset the margin for smaller screens */
+        margin-left: 0; /* Reset the left margin for smaller screens */
+        padding-left: 2rem; /* Adjust padding for smaller screens */
+        padding-right: 2rem; /* Adjust padding for smaller screens */
+    }
+
+    .icons {
+        gap: 0.5rem; /* Adjust gap for smaller screens if necessary */
+        padding-left: 2rem; /* Adjust padding for smaller screens */
+        padding-right: 2rem; /* Adjust padding for smaller screens */
+    }
+
+    .main-image img {
+        width: 100%;
+    }
+
+    .sub-images {
+        flex-wrap: wrap; /* Allow sub-images to wrap to the next line */
+        padding-left: 2rem; /* Adjust padding for smaller screens */
+        padding-right: 2rem; /* Adjust padding for smaller screens */
+    }
+
+    .sub-images img {
+        width: 15%; /* Adjusted width for smaller screens */
+        height: auto;
+        object-fit: contain; /* Maintain aspect ratio */
+    }
+
+    .fabric-details {
+        margin: 2rem 0;
+        padding: 1rem 0; /* Adjust padding for smaller screens */
+    }
+    .fabric-details p {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+    .fabric-details .fabric-images {
+        flex-wrap: wrap; /* Allow fabric images to wrap to the next line */
+        gap: 3rem; /* Adjust gap between images for smaller screens */
+    }
+
+    .fabric-details .fabric-images img {
+        width: 100px; /* Set a fixed width */
+        height: auto; /* Ensure the height is auto */
+        object-fit: contain; /* Maintain aspect ratio */
+    }
+
+    .more-options p {
+        font-size: 1.2rem; /* Adjust paragraph font size for smaller screens */
+    }
+
+    .more-options button {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+/* Additional media query for extra small devices */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8rem; /* Adjust font size for smaller screens */
+        padding-left: 3rem; /* Adjust padding for smaller screens */
+        padding-right: 1rem; /* Adjust padding for smaller screens */
+        text-align: left; /* Align text to the left */
+    }
+
+    .text-section {
+        padding-left: 1rem; /* Adjust padding for smaller screens */
+        padding-right: 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .metrics-section {
+        padding-left: 1rem; /* Adjust padding for smaller screens */
+        padding-right: 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .icons {
+        padding-left: 1rem; /* Adjust padding for smaller screens */
+        padding-right: 1rem; /* Adjust padding for smaller screens */
+        gap: 1rem; /* Increase gap between icons for extra small screens */
+    }
+
+    .main-image img {
+        width: 50%;
+    }
+
+    .sub-images {
+        padding-left: 1rem; /* Adjust padding for smaller screens */
+        padding-right: 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .sub-images img {
+        width: 18%; /* Adjusted width for smaller screens */
+        height: auto;
+        object-fit: contain; /* Maintain aspect ratio */
+    }
+
+    .fabric-details {
+        margin: 2rem 0rem;
+        padding: 1rem 0; /* Adjust padding for smaller screens */
+    }
+
+    .fabric-details .fabric-images {
+        flex-wrap: wrap; /* Allow fabric images to wrap to the next line */
+        gap: 3rem; /* Adjust gap between images for extra small screens */
+        justify-content: center; /* Center the images */
+    }
+
+    .fabric-details .fabric-images img {
+        width: 50%; /* Ensure the image takes full width */
+        height: auto; /* Ensure the height is auto */
+        object-fit: contain; /* Maintain aspect ratio */
+    }
+
+    .more-options p {
+        font-size: 1rem; /* Adjust font size for extra small screens */
+    }
+
+    .more-options button {
+        font-size: 0.9rem; /* Adjust button size for extra small screens */
+    }
+}

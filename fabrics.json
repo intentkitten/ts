@@ -1,0 +1,104 @@
+[
+    {
+        "name": "TS INTERKNIT",
+        "description": "Elevate your school leaver experience with our exclusive",
+        "image": "image/ts interknit.webp",
+        "link": "interknit.html"
+    },
+    {
+        "name": "TS FLEECE",
+        "description": "Indulge in unparalleled warmth and comfort with our TS Fleece",
+        "image": "image/ts fleece icon.webp",
+        "link": "fleece.html"
+    },
+    {
+        "name": "TS HOLES MESH",
+        "description": "Step up your game with our cutting-edge TS Holes Mesh",
+        "image": "image/holes mesh icon.webp",
+        "link": "holes_mesh.html"
+    },
+    {
+        "name": "TS COOL MAX",
+        "description": "Experience unrivaled comfort and performance with our TS Cool",
+        "image": "image/cool max icon.webp",
+        "link": "cool_max.html"
+    },
+    {
+        "name": "TS STRETCH TASLON",
+        "description": "Experience unmatched comfort and flexibility with our TS Stretch Taslon",
+        "image": "image/stretch taslon icon.webp",
+        "link": "stretch_taslon.html"
+    },
+    {
+        "name": "TS EXO-TECH",
+        "description": "Gear up for success with our cutting-edge TS Exo-Tech rugby",
+        "image": "image/Exo-tech icon.webp",
+        "link": "exo_tech.html"
+    },
+    {
+        "name": "TS LI-TECH",
+        "description": "Unleash your potential on the rugby field with our advanced TS",
+        "image": "image/li-tech icon.webp",
+        "link": "li_tech.html"
+    },
+    {
+        "name": "TS LIGHT VAPO",
+        "description": "Unleash your potential on the soccer field with our innovative",
+        "image": "image/light vapo icon.webp",
+        "link": "light_vapo.html"
+    },
+    {
+        "name": "TS TRIPLE MESH",
+        "description": "Elevate your wardrobe with our TS Triple Mesh fabric",
+        "image": "image/triple mesh icon.webp",
+        "link": "triple_mesh.html"
+    },
+    {
+        "name": "TS LYCRA",
+        "description": "Elevate your performance with our cutting-edge TS Lycra fabric",
+        "image": "image/ts lycra icon.webp",
+        "link": "lycra.html"
+    },
+    {
+        "name": "TS HOODIE-TECH",
+        "description": "Elevate your style and comfort with our TS Hoodie-Tech range.",
+        "image": "image/hoodie-tech icon.webp",
+        "link": "hoodie_tech.html"
+    },
+    {
+        "name": "HD POLO TWILL",
+        "description": "Experience unbeatable durability and performance with our HD Polytwill",
+        "image": "image/hd poly twill icon.webp",
+        "link": "polo_twill.html"
+    },
+    {
+        "name": "TS SOFTSHELL",
+        "description": "Embrace the elements with confidence in our TS Softshell",
+        "image": "image/softshell icon.webp",
+        "link": "softshell.html"
+    },
+    {
+        "name": "TS EYELET MESH",
+        "description": "Discover the ultimate in versatillity and performance with our TS Eyelet",
+        "image": "image/eyelet mesh icon.webp",
+        "link": "eyelet_mesh.html"
+    },
+    {
+        "name": "TS RAIN-TECH",
+        "description": "Gear up for any weather with our advanced TS Rain-Tech fabric.",
+        "image": "image/rain-tech icon.webp",
+        "link": "rain_tech.html"
+    },
+    {
+        "name": "TS SPRAY-TECH",
+        "description": "Embrace the outdoors with confidence in our innovative",
+        "image": "image/spray-tech icon.webp",
+        "link": "spray_tech.html"
+    },
+    {
+        "name": "TS SWIM-TECH",
+        "description": "Experience superior protection and performance with our",
+        "image": "image/swim-tech icon.webp",
+        "link": "swim_tech.html"
+    }
+]
